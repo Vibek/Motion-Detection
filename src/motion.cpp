@@ -6,7 +6,7 @@
 /* The program has been designed by Vibekanand Dutta
 Motion Intention detection using convex hull methode and standard deviation to reduced the noise like sunlight, snow, rain.
 1. Save all the position of the motion in 2D space in X and Y coordinates frame in txt file
-2. Noise free, It will deted the real motion
+2. Noise free, It will detected the real motion
 3. Save all the motion image in a folder
 */
 
