@@ -1,0 +1,14 @@
+<launch>
+
+   <param name="use_sim_time" value="false" />
+
+   <include file ="$(find openni_launch)/launch/openni.launch" />
+
+    <node pkg="hector_motion_detection" type="motion_detection" name="motion_detection" output="screen" />
+
+        
+    
+ <node pkg = "rviz" type ="rviz" name="rviz" args="-d /home/vibek/hector_motion_detection/launch/Motion.rviz" />
+
+  
+</launch>

@@ -1,0 +1,10 @@
+\subsubsection parameters ROS parameters
+
+Reads and maintains the following parameters on the ROS server
+
+- \b "~motion_detect_threshold" : \b [int] Threshold  min: 0, default: 35, max: 255
+- \b "~motion_detect_min_percept_size" : \b [double] Min Percept Size min: 0.0, default: 1.0, max: 1000.0
+- \b "~motion_detect_max_percept_size" : \b [double] Max Percept Size min: 0.0, default: 500.0, max: 1000.0
+- \b "~motion_detect_min_density" : \b [double] Density min: 0.0, default: 1.0, max: 1000.0
+- \b "~percept_class_id" : \b [str] The percept class string min: , default: victim, max: 
+

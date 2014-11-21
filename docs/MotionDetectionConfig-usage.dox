@@ -1,0 +1,11 @@
+\subsubsection usage Usage
+\verbatim
+<node name="motion" pkg="Motion_detection" type="motion">
+  <param name="motion_detect_threshold" type="int" value="35" />
+  <param name="motion_detect_min_percept_size" type="double" value="1.0" />
+  <param name="motion_detect_max_percept_size" type="double" value="500.0" />
+  <param name="motion_detect_min_density" type="double" value="1.0" />
+  <param name="percept_class_id" type="str" value="victim" />
+</node>
+\endverbatim
+
